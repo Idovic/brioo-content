@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./web-NPhzM5M4.js","./index-DU2BooNk.js","./index-DzpX8_oT.css"])))=>i.map(i=>d[i]);
+import{r,_ as t}from"./index-DU2BooNk.js";var o;(function(e){e[e.Flush=0]="Flush",e[e.Add=1]="Add"})(o||(o={}));const _=r("TextToSpeech",{web:()=>t(()=>import("./web-NPhzM5M4.js"),__vite__mapDeps([0,1,2]),import.meta.url).then(e=>new e.TextToSpeechWeb)});export{o as QueueStrategy,_ as TextToSpeech};

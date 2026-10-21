@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
- "minAppVersion": "4.7.0",
- "updatedAt": "2026-10-21T12:39:29.667Z",
+ "minAppVersion": "4.8.0",
+ "updatedAt": "2026-10-21T13:27:04.368Z",
  "packs": [
   {
    "id": "anglais-10",
@@ -65,27 +65,27 @@
   },
   {
    "id": "culture-generale-10",
-   "version": "1.1.0",
+   "version": "1.0.0",
    "level": "dixieme",
    "name": "Culture générale",
    "world": "culture",
-   "size": 137044,
-   "sha256": "8e2dab1cd6886ecc89b829e3d60ef8775606627ce0f8044ed3e19ff844af34ed",
+   "size": 104314,
+   "sha256": "016dc6fa48e249f07f192cf0f2eb31e8b54b1ae4b215ced415fbd7837241ad70",
    "url": "packs/culture-generale-10.json",
    "chapters": 8,
    "items": 226
   },
   {
    "id": "culture-generale-6",
-   "version": "1.2.0",
+   "version": "1.0.0",
    "level": "sixieme",
    "name": "Culture générale",
    "world": "culture",
-   "size": 136154,
-   "sha256": "9f417ae50fb8dc732714c0788fd4a90de56f7b08464b625a165efff125343ffe",
+   "size": 92981,
+   "sha256": "e2c575c29ea215eef39acf348ac58cdfd5c5c9c7680a9cef08c7a77ed1731558",
    "url": "packs/culture-generale-6.json",
    "chapters": 8,
-   "items": 215
+   "items": 214
   },
   {
    "id": "culture-generale-term",

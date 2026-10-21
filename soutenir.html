@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Soutenir Brioo</title>
+<meta name="description" content="Brioo est une application gratuite et sans publicité pour réviser le CEE, le BEPC et le Bac en Guinée. Vous pouvez soutenir le projet par un don libre Orange Money.">
+<style>
+:root{color-scheme:light dark;--bg:#FFF8F1;--card:#FFFFFF;--ink:#231B3A;--muted:#6B6380;--accent:#C2410C;--soft:#FDEBD8}
+@media (prefers-color-scheme:dark){:root{--bg:#17121F;--card:#221B2E;--ink:#EDE9F5;--muted:#B3AAC4;--accent:#FB923C;--soft:#2E2438}}
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+main{max-width:640px;margin:0 auto;padding:32px 16px 56px}
+.logo{display:flex;align-items:center;gap:12px;margin-bottom:20px}
+.logo img{width:64px;height:64px;border-radius:16px}
+h1{font-size:1.9rem;margin:0;color:var(--accent)}
+.card{background:var(--card);border-radius:20px;padding:20px;margin-top:18px;box-shadow:0 4px 18px rgba(35,27,58,.08)}
+.om{display:flex;align-items:center;justify-content:space-between;gap:12px;background:var(--soft);border-radius:16px;padding:14px 16px;margin-top:12px}
+.om small{display:block;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);font-size:.75rem}
+.om strong{font-size:1.45rem;letter-spacing:.03em}
+button{border:0;border-radius:999px;padding:10px 16px;font-weight:700;font-size:.95rem;background:var(--card);color:var(--ink);box-shadow:0 2px 8px rgba(35,27,58,.12);cursor:pointer}
+.note{color:var(--muted);font-size:.9rem;text-align:center;margin-top:10px}
+ul{padding-left:20px}
+a{color:var(--accent)}
+</style></head><body><main>
+<div class="logo"><img src="admin/brand/brioo-icon.png" alt="Logo Brioo"><h1>Soutenir Brioo</h1></div>
+<div class="card">
+<p><strong>Brioo est et restera gratuit et sans publicité</strong>, pour que chaque élève de Guinée ait les mêmes chances de réussir le CEE, le BEPC et le Bac, même sans connexion Internet.</p>
+<p>Parents, enseignants, anciens élèves, membres de la diaspora : si Brioo vous est utile et que vous souhaitez encourager le projet, un don libre par <strong>Orange Money</strong> est le bienvenu.</p>
+<div class="om"><div><small>Orange Money</small><strong>+224 622 32 74 18</strong></div><button type="button" id="copier">Copier</button></div>
+<p class="note">Entièrement facultatif : toutes les leçons restent gratuites pour tout le monde.</p>
+</div>
+<div class="card">
+<p><strong>À quoi sert votre soutien ?</strong></p>
+<ul>
+<li>écrire et vérifier de nouvelles leçons et de nouveaux exercices ;</li>
+<li>faire fonctionner le tuteur qui explique aux élèves ;</li>
+<li>faire connaître Brioo dans les écoles de toute la Guinée.</li>
+</ul>
+<p>Merci du fond du cœur. — Sayon Idovic Loua, fondateur de Brioo</p>
+</div>
+<p class="note"><a href="confidentialite.html">Politique de confidentialité</a></p>
+</main>
+<script>
+document.getElementById('copier').addEventListener('click', async function () {
+  try { await navigator.clipboard.writeText('+224622327418'); this.textContent = 'Copié ✓'; } catch (e) { this.textContent = '+224622327418'; }
+});
+</script>
+</body></html>

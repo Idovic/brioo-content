@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "minAppVersion": "4.7.0",
- "updatedAt": "2026-10-21T10:49:25.822Z",
+ "updatedAt": "2026-10-21T11:49:19.967Z",
  "packs": [
   {
    "id": "anglais-10",
@@ -77,12 +77,12 @@
   },
   {
    "id": "culture-generale-6",
-   "version": "1.0.0",
+   "version": "1.1.0",
    "level": "sixieme",
    "name": "Culture générale",
    "world": "culture",
-   "size": 92981,
-   "sha256": "e2c575c29ea215eef39acf348ac58cdfd5c5c9c7680a9cef08c7a77ed1731558",
+   "size": 108888,
+   "sha256": "483cdb65c1125eb1bd18fa71b2b900d0cc413084bd715a3cfe7c6ad1cd1ee846",
    "url": "packs/culture-generale-6.json",
    "chapters": 8,
    "items": 214
